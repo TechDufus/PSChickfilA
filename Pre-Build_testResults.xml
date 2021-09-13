@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="20" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2021-09-13" time="12:17:32">
+  <environment machine-name="SHERLOCK" user="matth" cwd="C:\Users\matth\Documents\code\PSChickfilA" os-version="10.0.19043" nunit-version="2.5.8.0" user-domain="SHERLOCK" platform="Microsoft Windows 10 Pro|C:\WINDOWS|\Device\Harddisk0\Partition3" clr-version="Unknown" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Success" success="True" time="0.2485" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="C:\Users\matth\Documents\code\PSChickfilA\Tests\PSChickfilA_Manifest.Tests.ps1" executed="True" result="Success" success="True" time="0.0975" asserts="0" description="C:\Users\matth\Documents\code\PSChickfilA\Tests\PSChickfilA_Manifest.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="PSChickfilA Manifest Tests" executed="True" result="Success" success="True" time="0.0687" asserts="0" description="PSChickfilA Manifest Tests">
+            <results>
+              <test-case description="Passes Test-ModuleManifest" name="PSChickfilA Manifest Tests.Passes Test-ModuleManifest" time="0.0034" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Exports Functions" name="PSChickfilA Manifest Tests.Exports Functions" time="0.003" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has a Version Number" name="PSChickfilA Manifest Tests.Has a Version Number" time="0.0024" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has an Author" name="PSChickfilA Manifest Tests.Has an Author" time="0.0023" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has a Description" name="PSChickfilA Manifest Tests.Has a Description" time="0.0023" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has correct RootModule" name="PSChickfilA Manifest Tests.Has correct RootModule" time="0.0022" asserts="0" success="True" result="Success" executed="True" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="C:\Users\matth\Documents\code\PSChickfilA\Tests\PSChickfilA_Module.Tests.ps1" executed="True" result="Success" success="True" time="0.0797" asserts="0" description="C:\Users\matth\Documents\code\PSChickfilA\Tests\PSChickfilA_Module.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="PSChickfilA Module Public Tests" executed="True" result="Success" success="True" time="0.0391" asserts="0" description="PSChickfilA Module Public Tests">
+            <results>
+              <test-suite type="TestFixture" name="PSChickfilA Module Public Tests.Public Functions" executed="True" result="Success" success="True" time="0.012" asserts="0" description="PSChickfilA Module Public Tests.Public Functions">
+                <results>
+                  <test-case description="should import successfully" name="PSChickfilA Module Public Tests.Public Functions.should import successfully" time="0.0064" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="PSChickfilA Module Public Tests.Aliases" executed="True" result="Success" success="True" time="0.0287" asserts="0" description="PSChickfilA Module Public Tests.Aliases">
+                <results>
+                  <test-case description="should import successfully" name="PSChickfilA Module Public Tests.Aliases.should import successfully" time="0.0032" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="PSChickfilA Module Public Tests.Files" executed="True" result="Success" success="True" time="0.0372" asserts="0" description="PSChickfilA Module Public Tests.Files">
+                <results>
+                  <test-case description="LICENSE should exist" name="PSChickfilA Module Public Tests.Files.LICENSE should exist" time="0.0035" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="CHANGELOG.md should exist" name="PSChickfilA Module Public Tests.Files.CHANGELOG.md should exist" time="0.0028" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-case description="Imports Successfully" name="PSChickfilA Module Public Tests.Imports Successfully" time="0.0034" asserts="0" success="True" result="Success" executed="True" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="C:\Users\matth\Documents\code\PSChickfilA\Tests\Functions\Public\AdminToolkit_PublicFunctions_Universal.Tests.ps1" executed="True" result="Success" success="True" time="0.0714" asserts="0" description="C:\Users\matth\Documents\code\PSChickfilA\Tests\Functions\Public\AdminToolkit_PublicFunctions_Universal.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Function: Get-PSChickfilAOrder" executed="True" result="Success" success="True" time="0.0326" asserts="0" description="Function: Get-PSChickfilAOrder">
+            <results>
+              <test-case description="Should register command with Get-Command" name="Function: Get-PSChickfilAOrder.Should register command with Get-Command" time="0.003" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Should have comment-based help block" name="Function: Get-PSChickfilAOrder.Should have comment-based help block" time="0.0035" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Should have SYNOPSIS section in help" name="Function: Get-PSChickfilAOrder.Should have SYNOPSIS section in help" time="0.0031" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Should have DESCRIPTION section in help" name="Function: Get-PSChickfilAOrder.Should have DESCRIPTION section in help" time="0.0026" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Should have EXAMPLE section in help" name="Function: Get-PSChickfilAOrder.Should have EXAMPLE section in help" time="0.0026" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Should have NOTES section in help" name="Function: Get-PSChickfilAOrder.Should have NOTES section in help" time="0.0025" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Should be an advanced function" name="Function: Get-PSChickfilAOrder.Should be an advanced function" time="0.0042" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Should have Begin and End Regions" name="Function: Get-PSChickfilAOrder.Should have Begin and End Regions" time="0.0039" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Should be valid PowerShell code" name="Function: Get-PSChickfilAOrder.Should be valid PowerShell code" time="0.003" asserts="0" success="True" result="Success" executed="True" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
